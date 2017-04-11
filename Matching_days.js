@@ -25,15 +25,13 @@ day2.addEventListener('change', getDays);
 }
       if(newDate1 ===  newDate2){
       	List[newDate1].classList.add('green');
-        //console.log(List[newDate1]);
       }
-      //
+
        if(newDate2 !== newDate1 && newDate1!== undefined){
       	List[newDate1].classList.add('red');
       }
-      //
+
       if( newDate1 !== newDate2 && newDate2 !== undefined){
       	List[newDate2].classList.add('blue');
          }
-      //  }
      }
